@@ -57,9 +57,6 @@ BOARD_USES_ALSA_AUDIO := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := lito
 
-# Oneplus Camera
-TARGET_USES_OPLUS_CAMERA := true
-
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop

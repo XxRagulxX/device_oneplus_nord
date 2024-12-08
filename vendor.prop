@@ -125,8 +125,6 @@ vendor.qcom.bluetooth.soc=cherokee
 bluetooth.device.default_name=OnePlus Nord
 
 # Camera
-vendor.camera.algo.jpeghwencode=0
-vendor.camera.aux.packagelist=android,com.oneplus.camera
 vendor.camera.aux.packageexcludelist=org.telegram.messenger,org.thunderdog.challegram,us.zoom.videomeetings
 
 # Chipset
