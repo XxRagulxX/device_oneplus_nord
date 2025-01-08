@@ -175,8 +175,7 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.3.vendor \
-    android.hardware.drm-service.clearkey \
-    wvmkiller
+    android.hardware.drm-service.clearkey
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -294,7 +293,7 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service \
+    android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     NfcNci \
     Tag
@@ -494,6 +493,7 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
+    android.media.audio.common.types-V2-cpp \
     libnl \
     libpng.vendor:32 \
     libwfdaac_vendor
